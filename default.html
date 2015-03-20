@@ -2,18 +2,22 @@
 <html>
   <head>
     <title>{{page.title}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
     <link rel="stylesheet" href="{{ site.basesite }}/css/style.css">
   </head>
   <body>
-    <header>
-      <nav>
-      </nav>
-    </header>
-    <div id="container">
-      {{content}}
-    </div>
-    <footer>
-      
-    </footer>
+      <header>
+        <p id="identity">Mathieu B&eacute;nard</p>
+        <nav>
+          <a href="{{ site.basesite }}/">HOME</a>
+          <a href="{{ site.basesite }}/projects">PROJECTS</a>
+          <a href="{{ site.basesite }}/about">ABOUT</a>
+        </nav>
+      </header>
+      <div id="content">
+        {{content}}
+      </div>
+      <footer>
+      </footer>
   </body>
 </html>
