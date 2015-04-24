@@ -6,18 +6,19 @@
     <link rel="stylesheet" href="{{ site.basesite }}/css/style.css">
   </head>
   <body>
-      <header>
-        <p id="identity">Mathieu B&eacute;nard</p>
-        <nav>
-          <a href="{{ site.basesite }}/">HOME</a>
-          <a href="{{ site.basesite }}/projects">PROJECTS</a>
-          <a href="{{ site.basesite }}/about">ABOUT</a>
-        </nav>
-      </header>
-      <div id="content">
-        {{content}}
-      </div>
-      <footer>
-      </footer>
+     <div id="wrapper">
+        <header>
+          <p id="identity">Mathieu B&eacute;nard</p>
+          <nav>
+            <a href="{{ site.basesite }}/">HOME</a>
+            <a href="{{ site.basesite }}/projects">PROJECTS</a>
+            <a href="{{ site.basesite }}/about">ABOUT</a>
+          </nav>
+        </header>
+        <div id="content">
+          {{content}}
+        </div>
+     </div>
+    <footer></footer>
   </body>
 </html>
